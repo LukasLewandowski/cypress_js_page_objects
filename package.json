@@ -1,0 +1,22 @@
+{
+  "name": "cypress_js_page_objects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasLewandowski/cypress_js_page_objects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/LukasLewandowski/cypress_js_page_objects#readme",
+  "dependencies": {
+    "@applitools/eyes-cypress": "^3.23.5",
+    "cypress": "^9.2.0"
+  }
+}
