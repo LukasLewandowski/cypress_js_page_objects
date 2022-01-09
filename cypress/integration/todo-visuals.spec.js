@@ -1,8 +1,8 @@
-/// <reference types="cypress" />
+import {it} from 'mocha'
 import * as todoPage from '../page-objects/todo-page'
 
 describe('visual validation', () => {
-  before(() =>  todoPage.navigate())
+  before(() => todoPage.navigate())
 
   beforeEach(() =>
     cy.eyesOpen({
@@ -13,8 +13,8 @@ describe('visual validation', () => {
         {name: 'chrome', width: 800, height: 600},
         {name: 'firefox', width: 1024, height: 768},
         {deviceName: 'iPhone X'},
-      ]
-    })
+      ],
+    }),
   )
 
   afterEach(() => cy.eyesClose())
